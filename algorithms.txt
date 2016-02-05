@@ -1,0 +1,132 @@
+1) This is an introductory challenge. The purpose of this challenge is to give you a working I/O template in your preferred language. It includes scanning 2 integers from STDIN, calling a function, returning a value, and printing it to STDOUT.
+
+Your task is to scan two numbers from STDIN, and print the sum A+B on STDOUT.
+
+Note: The code has been saved in a template, which you can submit if you want.
+
+Input Format 
+Given A and B on two different lines.
+
+Output Format 
+An integer that denotes Sum (A + B)
+
+Constraints 
+1 ≤ A, B ≤ 1000
+
+Sample Input
+
+2
+3
+Sample Output
+
+5
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+2.1) You are given an array of integers of size N. Can you find the sum of the elements in the array?
+
+Input 
+The first line of input consists of an integer N. The next line contains N space-separated integers representing the array elements. 
+Sample:
+
+6
+1 2 3 4 10 11
+Output 
+Output a single value equal to the sum of the elements in the array. 
+For the sample above you would just print 31 since 1+2+3+4+10+11=31.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+2.2) You are given an array of integers of size N. You need to print the sum of the elements in the array, keeping in mind that some of those integers may be quite large.
+
+Input
+
+The first line of the input consists of an integer N. The next line contains N space-separated integers contained in the array.
+
+Constraints 
+1≤N≤10 
+0≤A[i]≤1010
+
+Sample Input 
+5
+1000000001 1000000002 1000000003 1000000004 1000000005
+
+Output 
+Print a single value equal to the sum of the elements in the array. In the above sample, you would print 5000000015.
+
+Note: The range of the 32-bit integer is (−231) to (231−1) or [−2147483648,2147483647].
+When we add several integer values, the resulting sum might exceed the above range. You might need to use long long int in C/C++ or long data type in Java to store such sums.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+3) Given a square matrix of size N×N, calculate the absolute difference between the sums of its diagonals.
+
+Input Format
+
+The first line contains a single integer, N. The next N lines denote the matrix's rows, with each line containing N space-separated integers describing the columns.
+
+Output Format
+
+Print the absolute difference between the two sums of the matrix's diagonals as a single integer.
+
+Sample Input
+
+3
+11 2 4
+4 5 6
+10 8 -12
+Sample Output
+
+15
+Explanation
+
+The primary diagonal is: 
+11
+      5
+            -12
+
+Sum across the primary diagonal: 11 + 5 - 12 = 4
+
+The secondary diagonal is:
+            4
+      5
+10
+Sum across the secondary diagonal: 4 + 5 + 10 = 19 
+Difference: |4 - 19| = 15
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+4) Given an array of integers, calculate which fraction of the elements are positive, negative, and zeroes, respectively. Print the decimal value of each fraction.
+
+Input Format
+
+The first line, N, is the size of the array. 
+The second line contains N space-separated integers describing the array of numbers (A1,A2,A3,⋯,AN).
+
+Output Format
+
+Print each value on its own line with the fraction of positive numbers first, negative numbers second, and zeroes third.
+
+Sample Input
+
+6
+-4 3 -9 0 4 1         
+Sample Output
+
+0.500000
+0.333333
+0.166667
+Explanation
+
+There are 3 positive numbers, 2 negative numbers, and 1 zero in the array. 
+The fraction of the positive numbers, negative numbers and zeroes are 36=0.500000, 26=0.333333 and 16=0.166667, respectively.
+
+Note: This challenge introduces precision problems. The test cases are scaled to six decimal places, though answers with absolute error of up to 10−4 are acceptable.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+5) Your teacher has given you the task of drawing a staircase structure. Being an expert programmer, you decided to make a program to draw it for you instead. Given the required height, can you print a staircase as shown in the example?
+
+Input 
+You are given an integer N depicting the height of the staircase.
+
+Output 
+Print a staircase of height N that consists of # symbols and spaces. For example for N=6, here's a staircase of that height:
+
+     #
+    ##
+   ###
+  ####
+ #####
+######
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
