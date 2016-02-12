@@ -24,6 +24,7 @@ public class Solution2 {
                 		
                 		if(ar[j] > temp){
                 			ar[j+1] = ar[j];
+                			temp = 0;
                         } else{
                         	ar[j+1] = temp;
                         }
