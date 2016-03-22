@@ -2,7 +2,7 @@ package algorithms.warmup;
 
 import java.util.Scanner;
 
-public class test1 {
+public class Solution1 {
 	
 	static int result = 0;
 	static int solveMeFirst(int a, int b) {
