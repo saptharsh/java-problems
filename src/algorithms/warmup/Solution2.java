@@ -3,7 +3,7 @@ package algorithms.warmup;
 import java.util.Scanner;
 
 // Form Big numbers replace int by long
-public class test2 {
+public class Solution2 {
 
 	int sum = 0;
 	public int arraySum(int[] arr){
@@ -25,7 +25,7 @@ public class test2 {
 	
 	public static void main(String[] args) {
 		
-		test2 call = new test2();
+		Solution2 call = new Solution2();
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
         int arr[] = new int[n];
